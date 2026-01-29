@@ -1,73 +1,231 @@
-# Welcome to your Lovable project
+# 🛡️ CyberShield AI - Real-Time Cyberthreat Detection System
 
-## Project info
+<div align="center">
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+![CyberShield AI](https://img.shields.io/badge/CyberShield-AI%20Powered-00ff88?style=for-the-badge&logo=shield&logoColor=white)
+![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-## How can I edit this code?
+**A cutting-edge, real-time cyberthreat detection and visualization dashboard that simulates global cyber attacks with AI-powered analysis.**
 
-There are several ways of editing your application.
+[Live Demo](#) • [Features](#-features) • [Installation](#-installation) • [Screenshots](#-screenshots) • [Tech Stack](#-tech-stack)
 
-**Use Lovable**
+</div>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎯 Overview
 
-**Use your preferred IDE**
+CyberShield AI is a sophisticated Security Operations Center (SOC) dashboard that provides real-time visualization and analysis of simulated cyber threats across the globe. Built with modern web technologies, it demonstrates how enterprise-grade threat detection systems work, featuring:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Live Global Attack Map** with animated attack paths
+- **AI-Powered Threat Analysis** with intelligent insights
+- **Real-time Metrics & Statistics** updated every second
+- **Interactive Control Panel** for simulation management
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✨ Features
 
-Follow these steps:
+### 🗺️ Global Threat Visualization
+- **Interactive World Map** - SVG-based map showing real-time attack paths
+- **Animated Attack Arcs** - Visual representation of attacks from source to target
+- **Pulse Indicators** - Glowing markers for attack origins and targets
+- **Geographic Intelligence** - Track attacks by country with risk level assessment
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🤖 AI-Powered Analysis
+- **Neural Network Detection** - Simulated 98.7% confidence threat identification
+- **Behavioral Analysis** - Pattern recognition for attack methodologies
+- **Threat Intelligence Correlation** - Links to known threat actors and campaigns
+- **Automated Response Recommendations** - Smart blocking suggestions
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 📊 Comprehensive Analytics
+- **Attack Type Distribution** - Bar charts showing DDoS, SQL Injection, Ransomware, etc.
+- **Severity Breakdown** - Pie charts for Low/Medium/High/Critical threats
+- **Country Statistics** - Attacks originated vs received by nation
+- **Real-time Metrics** - Total detected, blocked, and active threats
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🎮 Interactive Controls
+- **Attack Rate Slider** - Adjust simulation speed (100ms - 5000ms intervals)
+- **Play/Pause Toggle** - Control the threat simulation
+- **Clear Events** - Reset the threat feed
+- **AI Analysis Toggle** - Enable/disable AI insights
+- **Auto-Block Toggle** - Simulate automated threat response
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🔐 Simulated Attack Types
+
+| Attack Type | Description | Severity Range |
+|------------|-------------|----------------|
+| 🌊 DDoS | Distributed Denial of Service floods | Medium - Critical |
+| 💉 SQL Injection | Database manipulation attempts | High - Critical |
+| 📜 XSS | Cross-site scripting attacks | Low - High |
+| 🔒 Ransomware | Encryption-based extortion | Critical |
+| 🎣 Phishing | Credential harvesting attempts | Medium - High |
+| 🔨 Brute Force | Password cracking attacks | Low - Medium |
+| 💀 Zero-Day | Unknown vulnerability exploits | Critical |
+| 👤 Man-in-the-Middle | Traffic interception | High - Critical |
+| ⛏️ Cryptojacking | Unauthorized crypto mining | Low - Medium |
+| 🎯 APT | Advanced Persistent Threats | High - Critical |
+| 🦠 Malware | Malicious software deployment | Medium - Critical |
+| 📤 Data Exfiltration | Unauthorized data transfer | High - Critical |
+
+## 🚀 Installation
+
+### Prerequisites
+- Node.js 18+ 
+- npm or bun package manager
+
+### Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/aryantomar898-gif/cybershield-ai.git
+
+# Navigate to project directory
+cd cybershield-ai
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
 
-**Use GitHub Codespaces**
+```bash
+# Create optimized production build
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Preview production build locally
+npm run preview
+```
 
-## What technologies are used for this project?
+## 🖼️ Screenshots
 
-This project is built with:
+### Main Dashboard
+The central command center featuring the global threat map, real-time metrics, and threat feed.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Attack Visualization
+Animated arcs show attack paths from source to target countries with severity-based coloring.
 
-## How can I deploy this project?
+### Analytics Panel
+Comprehensive charts showing attack type distribution and severity breakdown.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🛠️ Tech Stack
 
-## Can I connect a custom domain to my Lovable project?
+### Frontend Framework
+- **React 18** - Component-based UI architecture
+- **TypeScript** - Type-safe development
+- **Vite** - Lightning-fast build tool
 
-Yes, you can!
+### Styling & UI
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Beautiful, accessible components
+- **Framer Motion** - Smooth animations
+- **Lucide React** - Modern icon library
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Data Visualization
+- **Recharts** - Responsive chart library
+- **Custom SVG Map** - Hand-crafted world map component
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### State Management
+- **React Hooks** - useState, useEffect, useCallback
+- **Custom Hooks** - useThreatSimulation for attack logic
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── ui/                 # shadcn/ui components
+│   ├── Dashboard.tsx       # Main dashboard layout
+│   ├── WorldMap.tsx        # Interactive threat map
+│   ├── ThreatFeed.tsx      # Real-time attack feed
+│   ├── ThreatCard.tsx      # Individual threat display
+│   ├── DashboardMetrics.tsx # Key metrics display
+│   ├── CountryStats.tsx    # Country-based statistics
+│   ├── AttackTypesChart.tsx # Analytics charts
+│   ├── ControlPanel.tsx    # Simulation controls
+│   └── Header.tsx          # Navigation header
+├── hooks/
+│   └── useThreatSimulation.ts # Threat generation logic
+├── lib/
+│   ├── threatSimulation.ts  # Attack simulation engine
+│   └── utils.ts             # Utility functions
+├── pages/
+│   ├── Index.tsx           # Home page
+│   └── NotFound.tsx        # 404 page
+└── index.css               # Global styles & theme
+```
+
+## 🎨 Design System
+
+CyberShield uses a custom cyberpunk-inspired design system:
+
+### Color Palette
+- **Cyber Green** `#00ff88` - Success, positive indicators
+- **Cyber Red** `#ff3366` - Critical alerts, dangers
+- **Cyber Blue** `#00d4ff` - Information, links
+- **Cyber Yellow** `#ffaa00` - Warnings
+- **Cyber Purple** `#9945ff` - Accent highlights
+
+### Typography
+- **Orbitron** - Futuristic display font for headers
+- **JetBrains Mono** - Monospace for technical data
+
+## 🔧 Configuration
+
+### Adjusting Simulation Parameters
+
+Edit `src/lib/threatSimulation.ts` to customize:
+
+- Attack source/target locations
+- Threat type weights and probabilities
+- Severity distributions
+- Malware families and attack vectors
+
+### Customizing the Map
+
+The world map in `WorldMap.tsx` uses SVG paths. You can:
+- Add new country paths
+- Modify attack arc animations
+- Adjust pulse indicator styles
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+**Aryan Tomar**
+- GitHub: [@aryantomar898-gif](https://github.com/aryantomar898-gif)
+
+## 🙏 Acknowledgments
+
+- Inspired by real-world SOC dashboards
+- Attack data patterns based on MITRE ATT&CK framework
+- Icons provided by Lucide React
+- UI components from shadcn/ui
+
+---
+
+<div align="center">
+
+**⚡ Built with [Lovable](https://lovable.dev) ⚡**
+
+*"Protecting the digital frontier, one threat at a time."*
+
+</div>
