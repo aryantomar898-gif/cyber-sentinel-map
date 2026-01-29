@@ -222,10 +222,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<div align="center">
-
-**⚡ Built with [Lovable](https://lovable.dev) ⚡**
-
-*"Protecting the digital frontier, one threat at a time."*
-
-</div>
